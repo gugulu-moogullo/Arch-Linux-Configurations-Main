@@ -14,6 +14,7 @@ if [ -d "$HOME/.local/bin" ] && [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 export PATH="$HOME/.fzf/bin:$HOME/.local/bin:$PATH"
+
 # Tmux-Sessionizer and Tmux-Windowizer configurations
 bind '"\C-f":"tmux-sessionizer\n"'
 bind '"\C-g":"tmux-windowizer\n"'
